@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'next/image'
+import logo from '../images/rozyelektronik.svg'
 type Props = {};
 
 function Header({}: Props) {
@@ -7,7 +8,7 @@ function Header({}: Props) {
     <div className="flex justify-between py-3">
       <div>
         <Image
-        src={"assets/rozyelektronik.svg"}
+        src={logo}
         alt="rozyelektronik"
         width={204}
         height={204}

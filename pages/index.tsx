@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from '../components/Header'
 import Image from 'next/image'
-
+import elektronik from '../images/elektronik.svg'
 const Home: NextPage = () => {
   return (
     <div className='xl:px-44 px-4 md:px-24 sm:px-20'>
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         </h2>
         <h2 className='text-sm bg-zinc-100 p-1 font-thin'>Tempat Servis Terjamin & Bergaransi</h2>
         <Image className='my-10'
-        src={"assets/elektronik.svg"}
+        src={elektronik}
         width={300}
         height={500}
         alt="elektronik"
