@@ -15,7 +15,7 @@ function Kontak({}: Props) {
       <h2 className="text-md font-thin text-center mb-10">
         Mari bicarakan mengenai barang elektronik anda yang rusak.
       </h2>
-      <div className="space-y-7">
+      <div className="space-y-7 text-sm text-center">
         <div className="flex items-center justify-center w-full space-x-2">
           <PhoneIcon className="w-5 h-5 animate-pulse" />
           <p>
