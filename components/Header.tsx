@@ -18,7 +18,14 @@ function Header({}: Props) {
         <div className="flex items-center py-3 justify-between relative">
           <div>
             <div className="block">
-              <Image src={logo} alt="rozyelektronik" width={150} height={150} />
+              <Link href={"https://rozyelektronik.vercel.app/"}>
+                <Image
+                  src={logo}
+                  alt="rozyelektronik"
+                  width={150}
+                  height={150}
+                />
+              </Link>
             </div>
           </div>
           <div className="flex items-center px-4">
@@ -39,14 +46,14 @@ function Header({}: Props) {
               } absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:-my-7 lg:shadow-none lg:rounded-none`}
             >
               <ul className="block lg:flex">
-                <li className="group">
+                {/* <li className="group">
                   <Link
                     href={"#hero"}
                     className="text-base text-black flex py-2 mx-8 group-hover:text-brand"
                   >
                     Home
                   </Link>
-                </li>
+                </li> */}
                 <li className="group">
                   <Link
                     href={"#layanan"}
