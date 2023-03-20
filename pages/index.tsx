@@ -5,8 +5,6 @@ import Image from "next/image";
 import Hero from "../components/Hero";
 import Layanan from "../components/Layanan";
 import Kontak from "../components/Kontak";
-import HeaderH from "../components/HeaderH";
-import HeaderS from "../components/HeaderS";
 
 const Home: NextPage = () => {
   return (
@@ -19,9 +17,7 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Header /> */}
-      {/* <HeaderH/> */}
-      <HeaderS />
+      <Header />
       <div className="xl:px-44 px-4 md:px-24 sm:px-20">
         <section id="hero">
           <Hero />
