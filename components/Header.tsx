@@ -18,7 +18,7 @@ function Header({}: Props) {
         <div className="flex items-center py-3 justify-between relative">
           <div>
             <div className="block">
-              <Link href={"https://rozyelektronik.vercel.app/"}>
+              <Link href={""}>
                 <Image
                   src={logo}
                   alt="rozyelektronik"
