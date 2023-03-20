@@ -17,7 +17,7 @@ function Header({}: Props) {
       <div className="container">
         <div className="flex items-center py-3 justify-between relative">
           <div>
-            <div className="block">
+            <div className="block mx-4">
               <Link href={""}>
                 <Image
                   src={logo}
