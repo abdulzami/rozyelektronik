@@ -10,7 +10,7 @@ type Props = {};
 
 function Kontak({}: Props) {
   return (
-    <div className="mt-20 h-full rounded-t py-10 pb-16 px-7  text-white bg-brand">
+    <div className="mt-20 h-full rounded-t py-10 pb-16 text-white bg-brand">
       <h1 className="text-xl text-center">Kontak</h1>
       <h2 className="text-md font-thin text-center mb-10">
         Mari bicarakan mengenai barang elektronik anda yang rusak.
