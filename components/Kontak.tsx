@@ -31,7 +31,7 @@ function Kontak({}: Props) {
 
         <div className="flex items-center justify-center w-full space-x-2">
           <MapPinIcon className="w-5 h-5 animate-pulse" />
-          <p>Jl. Nyai Ageng Arem-Arem 9B/No.1</p>
+          <p>Jl. Nyai Ageng Arem-Arem 9B/No.1 Gresik 61115</p>
         </div>
       </div>
     </div>
