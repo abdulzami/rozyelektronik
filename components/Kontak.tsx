@@ -19,19 +19,21 @@ function Kontak({}: Props) {
         <div className="flex items-center justify-center w-full space-x-2">
           <PhoneIcon className="w-5 h-5 animate-pulse" />
           <p>
-            <Link href={"https://wa.link/qf4cql"}>+6281231238535</Link>
+            <Link href={"https://wa.link/qf4cql"} className="hover:underline decoration-1">+6281231238535</Link>
           </p>
         </div>
         <div className="flex items-center justify-center w-full space-x-2">
           <EnvelopeIcon className="w-5 h-5 animate-pulse" />
           <p>
-            <Link href="mailto:rozyelektronik.gskid@gmail.com?subject=Customer - Service Rozy Elektronik">rozyelektronik.gskid@gmail.com</Link>
+            <Link href="mailto:rozyelektronik.gskid@gmail.com?subject=Customer - Service Rozy Elektronik" className="hover:underline decoration-1">rozyelektronik.gskid@gmail.com</Link>
           </p>
         </div>
 
         <div className="flex items-center justify-center w-full space-x-2">
           <MapPinIcon className="w-5 h-5 animate-pulse" />
-          <p>Jl. Nyai Ageng Arem-Arem 9B/No.1 Gresik 61115</p>
+          <Link href={"https://maps.app.goo.gl/cvMFWBELPqPD4Me67"} className="hover:underline decoration-1">
+            Jl. Nyai Ageng Arem-Arem 9B/No.1 Gresik 61115
+          </Link>
         </div>
       </div>
     </div>
