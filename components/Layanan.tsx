@@ -9,7 +9,7 @@ type Props = {};
 
 function Layanan({}: Props) {
   return (
-    <div>
+    <div id="layanan">
       <h1 className="text-xl text-center">Layanan</h1>
       <h2 className="text-md font-thin text-center mb-10">
         Kami menyediakan jasa servis dari berbagai macam jenis barang

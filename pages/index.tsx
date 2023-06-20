@@ -1,12 +1,21 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Header from "../components/Header";
-import Image from "next/image";
 import Hero from "../components/Hero";
 import Layanan from "../components/Layanan";
 import Kontak from "../components/Kontak";
 
 const Home: NextPage = () => {
+  // const linkRef = useRef(null);
+
+  // const goto = (ref:any) => {
+  //   document.body.scrollTo({
+  //     top:ref.offsetTop-90,
+  //     left:0,
+  //     behavior:"smooth"
+  //   })
+  // }
+
   return (
     <div>
       <Head>
@@ -19,6 +28,12 @@ const Home: NextPage = () => {
       </Head>
       <Header />
       <div className="xl:px-44 px-4 md:px-24 sm:px-20">
+        {/* <section onClick={()=>goto(linkRef.current)}>
+          <Hero />
+        </section>
+        <section ref={linkRef} >
+          <Layanan />
+        </section> */}
         <section id="hero">
           <Hero />
         </section>
@@ -26,7 +41,7 @@ const Home: NextPage = () => {
           <Layanan />
         </section>
       </div>
-      <section id="kontak">
+        <section id="kontak">
           <Kontak />
         </section>
     </div>
